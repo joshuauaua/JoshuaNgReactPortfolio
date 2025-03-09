@@ -1,0 +1,78 @@
+{
+  "name" : "Joshua Ng",
+  "tagline": "Fullstack Developer and Creative Technologist",
+  "email" : "joshua@sonicassembly.se",
+  "phone": "+46 707483975",
+  "location": "Stockholm, Sweden",
+  
+  "experience" : [
+    {
+      "title": "Freelance Sound Designer & Composer",
+      "company": "Sonic Assembly",
+      "Location" : "Stockholm, Sweden",
+      "date": "2024 - Present",
+      "website": "https://www.sonicassembly.se",
+      "description": "Sonic Assembly is a sound design and music production company that specializes in creating audio for video games, film, and other media. I work with clients to create custom sound effects, music, and voiceovers that enhance their projects. Have completed projects for Google, Fujifilm, Polar Skate Company and more."
+    },
+    {
+      "title" : "Project Leader",
+      "company" : "Föreningen Stapelbädden (STPLN)",
+      "Location" : "Malmö, Sweden",
+      "date" : "2017 - 2024",
+      "website" : "https://www.stpln.se",
+      "description" : "STPLN is a creative community center that offers workshops, events, and coworking spaces for artists, designers, and makers. As a project leader, I managed a team of volunteers and organized events, workshops, and exhibitions. I also developed partnerships with local businesses and organizations to support our programs."
+    },
+
+    {
+      "title" : "Creative Director",
+      "company" : "Connectors Society",
+      "Location" : "Malmö, Sweden",
+      "date" : "2015 - 2017",
+      "website" : "https://www.connectorsociety.com",
+      "description" : "Connectors Society is a creative agency that specializes in branding, marketing, and design. As creative director, I led a team of designers, copywriters, and marketers to create campaigns for clients in the fashion, lifestyle, and entertainment industries. I also managed client relationships and developed new business opportunities."
+    },
+
+    {
+      "title" : "Workshop Leader",
+      "company" : "Glokala Fölkhögskolan",
+      "Location" : "Malmö, Sweden",
+      "date" : "2013 - 2015",
+      "website" : "https://www.glokala.se",
+      "description" : "Glokala Fölkhögskolan is a community college that offers courses in art, design, and social entrepreneurship. As a workshop leader, I developed and taught classes in sound design, music production, and digital media. I also mentored students and provided feedback on their projects."
+    }
+  ],
+
+  "education" : [
+    {
+      "school" : "Chas Academy, Stockholm",
+      "degree" : ".NET Fullstack Developer Vocational Degree",
+      "date" : "2024 - 2026"
+    },
+    {
+      "school" : "AP Academy, Stockholm",
+      "degree" : "Game Audio and Sound Design Certification",
+      "date" : "2022 - 2023"
+    },
+    {
+      "school" : "Biskops Arnö Folkhögskola, Stockholm",
+      "degree" : "Songwriting & Music Production Line",
+      "date" : "2022 - 2023"
+     },
+     {
+      "school" : "Malmö University, Malmö",
+      "degree" : "Bachelor of Arts in International Relations",
+      "date" : "2012 - 2016"
+     },
+     {
+      "school" : "CTCJ, Sheffield",
+      "degree" : "National College for the Certiciation of Journalists Accreditation",
+      "date" : "2011 - 2012"
+     },
+     {
+      "school" : "Calvin University, Michigan",
+      "degree" : "Journalism (Standalone Course)",
+      "date" : "2010 - 2011"
+     }
+  ]
+
+}
