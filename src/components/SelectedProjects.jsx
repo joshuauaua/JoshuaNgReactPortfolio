@@ -1,5 +1,6 @@
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import {Link} from 'react-router-dom';
 
 const responsive = {
   superLargeDesktop: {
@@ -24,7 +25,7 @@ const responsive = {
 export default function SelectedProjects() {
   return (
     <>
-    <h1 id="selected-projects"> Selected Projects </h1>
+    <h1> Selected Projects </h1>
       <Carousel
         swipeable={false}
         draggable={true}
@@ -63,7 +64,7 @@ export default function SelectedProjects() {
         </div>
       </Carousel>
       
-      <button className="moreButton"> More projects</button>
+      <button className="more-button" Link to="/projects"> More projects</button>
       
     </>
   );

@@ -23,8 +23,6 @@ header nav ul {
   display: flex;
 }
 
-
-
 header nav ul li a {
   display: inline-block;
   text-align: center;
@@ -36,8 +34,9 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  color: rgb(137, 29, 29);
-  background-color: #000;
+  color: rgb(255, 255, 255);
+  background-color: #c1c1c1;
+  border-radius: 20%;
   box-shadow: 5px 5px 5px rgba(252, 138, 242, 0.4);
 }
 
@@ -48,7 +47,7 @@ header nav ul li a:hover {
 }
 
 .logo span {
-  color: hotpink;
+  color: rgb(0, 0, 0);
 }
 
 #nav-toggle {
@@ -101,6 +100,15 @@ header nav ul li a:hover {
   }
 }
 
+.hero-links{
+  text-decoration: underline;
+  text-decoration-style: wavy;
+}
+
+.hero-links:hover{
+  color: coral;
+}
+
 
 
 
@@ -114,6 +122,17 @@ main{
 section h1{
   text-align: center;
   padding: 1em 0;
+}
+
+.more-button{
+  display: block;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  border: dotted;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 .project-section{
