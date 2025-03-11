@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
@@ -31,6 +32,7 @@ export default function Projects() {
                   <div className="card-body">
                     <h3>{p.name}</h3>
                     <p>Language: {p.language || "Unknown Language"}  </p>
+                    <Link to = {p.html_url} target="_blank" >Link</Link>
                   </div>
                 </article>
               );

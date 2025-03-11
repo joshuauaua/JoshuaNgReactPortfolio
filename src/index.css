@@ -109,10 +109,6 @@ header nav ul li a:hover {
   color: coral;
 }
 
-
-
-
-
 main{
   min-height: 100vh;
   background-color: darkcyan;
@@ -140,6 +136,18 @@ section h1{
   flex-wrap: wrap;
   justify-content: center;
 }
+
+#contact-form{
+  margin-top: 100px;
+  padding: 40px;
+  font-size: 48px;
+}
+
+.form-field{
+  border: none; 
+  padding-left: 40px;
+}
+
 
 .card{
   width: 13rem;
