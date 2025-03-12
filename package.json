@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://joshuauaua.github.io/JoshuaNgReactPortfolio",
+  "homepage": "https://joshuauaua.github.io/",
   "scripts": {
   "dev": "vite",
   "build": "vite build",
