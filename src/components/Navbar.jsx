@@ -9,14 +9,14 @@ export default function Navbar(){
   return(
     <header>
         <Link to="/" className="logo">
-            <h2>Joshua<span> Ng</span></h2>
+            <h2 id="logo">Joshua Ng</h2>
         </Link>
         <nav>
             <ul className={isNavOpen ? "open" : ""}>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/projects">Projects</Link></li>
+                <li><Link to="/about">ABOUT</Link></li>
+                <li><Link to="/projects">PROJECTS</Link></li>
                 <li><Link to="/cv">CV</Link></li>
-                <li><Link to="/contact">Get in Touch!</Link></li>
+                <li><Link to="/contact">CONTACT</Link></li>
             </ul>
         </nav>
         <p className="toggle-input" onClick={()=> setIsNavOpen(!isNavOpen)}  >MENU GOES HERE</p>

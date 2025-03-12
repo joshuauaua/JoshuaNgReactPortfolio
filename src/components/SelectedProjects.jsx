@@ -1,10 +1,10 @@
-import Carousel from "react-multi-carousel";
-import "react-multi-carousel/lib/styles.css";
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
+import "animate.css/animate.min.css";
+import { AnimationOnScroll } from "react-animation-on-scroll";
+import Marquee from "react-fast-marquee";
 
 const responsive = {
   superLargeDesktop: {
-    // the naming can be any, depends on you.
     breakpoint: { max: 4000, min: 3000 },
     items: 5,
   },
@@ -25,47 +25,55 @@ const responsive = {
 export default function SelectedProjects() {
   return (
     <>
-    <h1> Selected Projects </h1>
-      <Carousel
-        swipeable={false}
-        draggable={true}
-        showDots={false}
-        responsive={responsive}
-        ssr={true} // means to render carousel on server-side.
-        infinite={true}
-        autoplay={true}
-        autoPlaySpeed={1000}
-        keyBoardControl={false}
-        customTransition="all .5"
-        transitionDuration={500}
-        containerClass="carousel-container"
-        removeArrowOnDeviceType={["tablet", "mobile"]}
-        dotListClass="custom-dot-list-style"
-        itemClass="carousel-item-padding-40-px"
-      >
+      <h4> My projects are: </h4>
+
+      <div>
+        <AnimationOnScroll animateIn="animate__fadeIn">
+          <h1 className="selected-projects">Intuitive</h1>
+        </AnimationOnScroll>
+
+        <AnimationOnScroll animateIn="animate__fadeIn">
+          <h1 className="selected-projects">User Centric</h1>
+        </AnimationOnScroll>
+
+        <AnimationOnScroll animateIn="animate__fadeIn">
+          <h1 className="selected-projects">Responsive</h1>
+        </AnimationOnScroll>
+
+        <AnimationOnScroll animateIn="animate__fadeIn">
+          <h1 className="selected-projects">Functional</h1>
+        </AnimationOnScroll>
+
+        <AnimationOnScroll animateIn="animate__fadeIn">
+          <h1 className="selected-projects">Robust</h1>
+        </AnimationOnScroll>
+      </div>
+
+      <Marquee pauseOnHover="true">
         <div>
           <img src="https://picsum.photos/400" alt="placeholder" />
-          <p>Item 1</p>
         </div>
 
         <div>
           <img src="https://picsum.photos/400" alt="placeholder" />
-          <p>Item 2</p>
         </div>
 
         <div>
           <img src="https://picsum.photos/400" alt="placeholder" />
-          <p>Item 3</p>
         </div>
 
         <div>
           <img src="https://picsum.photos/400" alt="placeholder" />
-          <p>Item 4</p>
         </div>
-      </Carousel>
-      
-      <button className="more-button" Link to="/projects"> More projects</button>
-      
+
+        <div>
+          <img src="https://picsum.photos/400" alt="placeholder" />
+        </div>
+
+        <div>
+          <img src="https://picsum.photos/400" alt="placeholder" />
+        </div>
+      </Marquee>
     </>
   );
 }
