@@ -12,7 +12,7 @@ function App() {
     <BrowserRouter>
     <Navbar/>
       <Routes>
-        <Route path="JoshuaNgReactPortfolio/" element={<Home/>}></Route>
+        <Route path="/" element={<Home/>}></Route>
         <Route path="/about" element={<About/>}></Route>
         <Route path="/work" element={<Work />}></Route>
         <Route path="/cv" element={<Cv/> }></Route>
