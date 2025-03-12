@@ -38,6 +38,7 @@ header nav ul li a:hover {
   text-decoration: none;
   height: 2em;
   margin: auto;
+  color: black;
 }
 
 .logo span {

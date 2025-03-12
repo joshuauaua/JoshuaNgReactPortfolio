@@ -1,22 +1,45 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import ClockLoader from "react-spinners/ClockLoader";
 
 export default function Projects() {
   const [projects, setProjects] = useState([]);
+  const [loading, setLoading] = useState(true);
+
 
   useEffect(() => {
     fetch("https://api.github.com/users/joshuauaua/repos")
       .then((response) => response.json())
       .then((data) => {
-        setProjects(data);
-        const filteredData = data.filter((repo)=>repo.language = "C#" )
-        console.log(filteredData);
+        setTimeout(()=> {
+          setProjects(data);
+          setLoading(false);
+        }, 1000)
       })
       .catch((error) => {
         console.log(error);
       });
   }, []);
 
+  if (loading) {
+
+    return (
+        <main>
+            <section>
+                <h1>Mina projekt!</h1>
+                <div className="project-section">
+                    <ClockLoader
+                        color="black"
+                        size={30}
+                    />
+                </div>
+            </section>
+        </main>
+    )
+}
+else{
+  
+}
   return (
     <>
       <main>

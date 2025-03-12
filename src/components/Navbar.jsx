@@ -14,7 +14,7 @@ export default function Navbar(){
         <nav>
             <ul className={isNavOpen ? "open" : ""}>
                 <li><Link to="/about">ABOUT</Link></li>
-                <li><Link to="/projects">PROJECTS</Link></li>
+                <li><Link to="/work">WORK</Link></li>
                 <li><Link to="/cv">CV</Link></li>
                 <li><Link to="/contact">CONTACT</Link></li>
             </ul>
